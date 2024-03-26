@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/mealImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/mealtest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/mealIdTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dessert"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="@id/mealImageView"
+        app:layout_constraintStart_toEndOf="@id/mealImageView"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+    <TextView
+        android:id="@+id/mealNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mealIdTextViewID"
+        app:layout_constraintStart_toEndOf="@id/mealImageView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="testtest"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/mealIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/mealNameTextView"
+        app:layout_constraintStart_toEndOf="@id/mealImageView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Read more ..."
+        android:textSize="18sp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
