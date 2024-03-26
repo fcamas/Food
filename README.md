@@ -41,7 +41,8 @@ My chosen API for this project is **enter here**.
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+![Demo](https://github.com/fcamas/Food/assets/76220782/699e3068-d0d3-424b-a290-56135b56811d)
+
 
 GIF created with **your chosen GIF tool**
 
@@ -56,7 +57,7 @@ Here's a place for any other notes on the app, it's creation process, or what yo
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2024** **Fredy Camas**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
