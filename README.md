@@ -1,3 +1,4 @@
+https://www.themealdb.com/api/json/v1/1/
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
 # AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
@@ -36,7 +37,7 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-
+<img src="https://github.com/fcamas/Food/assets/76220782/37ecfe0d-5f33-4d22-bb65-3b2a233d0682" width="300" height="500">
 
 GIF created with **[Kap](https://getkap.co/) for macOS**
 
