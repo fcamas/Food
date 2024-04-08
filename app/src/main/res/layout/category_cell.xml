@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white">
+    android:background="@color/glass_tile_blue_light">
 
 
     <ImageView
@@ -23,6 +23,7 @@
         android:id="@+id/mealIdTextViewID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/custom_font"
         android:text="Dessert"
         android:textSize="18sp"
         android:textColor="@color/black"

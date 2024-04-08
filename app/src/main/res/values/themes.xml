@@ -3,6 +3,9 @@
     <style name="Base.Theme.Food" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/glass_tile_blue_light</item>
+        <item name="colorPrimaryDark">@color/glass_tile_blue_light</item>
+        <item name="colorAccent">@color/glass_tile_green_light</item>
     </style>
 
     <style name="Theme.Food" parent="Base.Theme.Food" />
